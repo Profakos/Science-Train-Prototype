@@ -95,3 +95,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carId: 0
+  trainCars: {fileID: 11400000, guid: fc733f68308c514469c4516fb7e92760, type: 2}

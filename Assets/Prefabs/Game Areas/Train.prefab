@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79dcfd750d8331942aeb6d39ce7c7750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trainCars: []
+  trainCars: {fileID: 11400000, guid: fc733f68308c514469c4516fb7e92760, type: 2}
 --- !u!1001 &1395230393393484979
 PrefabInstance:
   m_ObjectHideFlags: 0

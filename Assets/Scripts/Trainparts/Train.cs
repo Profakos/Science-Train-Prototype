@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TrainScriptableObjects;
 
 namespace TrainBattle
 {
@@ -9,12 +10,11 @@ namespace TrainBattle
 
 		[SerializeField]
 		// the lower the index, the righter most the car is, 0 index is the engine
-		private List<TrainCar> trainCars = new List<TrainCar>();
+		private TrainCarSet trainCars = null;
 
 		void Awake()
 		{
-			trainCars.AddRange(this.gameObject.transform.GetComponentsInChildren<TrainCar>());
-			trainCars.Sort((x, y) => x.CarId.CompareTo(y.CarId));
+
 		}
 
 		// Start is called before the first frame update
@@ -26,7 +26,7 @@ namespace TrainBattle
 		// Update is called once per frame
 		void Update()
 		{
-
+			trainCars.ListTrainCars();
 		}
 	}
 }
