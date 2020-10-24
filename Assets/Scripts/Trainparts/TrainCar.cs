@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using TrainScriptableObjects;
+using TrainScriptableObjects.ScriptableSets;
 using UnityEngine;
 
 namespace TrainBattle

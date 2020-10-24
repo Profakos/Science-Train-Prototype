@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3397051333867073045}
   - component: {fileID: 3397051333867073044}
   m_Layer: 5
-  m_Name: CombatCanvas
+  m_Name: CombatUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

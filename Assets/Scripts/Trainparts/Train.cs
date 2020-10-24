@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TrainScriptableObjects;
+using TrainScriptableObjects.ScriptableSets;
 
 namespace TrainBattle
 {
 	public class Train : MonoBehaviour
 	{
+		[SerializeField]
+		private CombatantSet allCombatants = null;
 
 		[SerializeField]
 		// the lower the index, the righter most the car is, 0 index is the engine

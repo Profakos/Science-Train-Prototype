@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TrainBattle;
 
-namespace TrainScriptableObjects
+namespace TrainScriptableObjects.ScriptableSets
 {
 
-	[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/Sets/TrainCarSet", order = 1)]
+	[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/ScriptableSets/TrainCarSet", order = 2)]
 	public class TrainCarSet : ScriptableObject
 	{
 		public string objectName = "New Train car set";

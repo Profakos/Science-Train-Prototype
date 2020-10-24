@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27a0cadd2a61fde459d77db20bded807, type: 3}
-  m_Name: PlayerTrainCarSet
+  m_Script: {fileID: 11500000, guid: 0a42a083d1ef9b24dae07b638494ca1c, type: 3}
+  m_Name: AllCombatants
   m_EditorClassIdentifier: 
-  objectName: PlayerTrainCarSet
+  objectName: All combatant set
