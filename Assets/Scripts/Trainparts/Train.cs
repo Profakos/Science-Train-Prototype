@@ -26,7 +26,6 @@ namespace TrainBattle
 		// Update is called once per frame
 		void Update()
 		{
-			trainCars.ListTrainCars();
 		}
 	}
 }

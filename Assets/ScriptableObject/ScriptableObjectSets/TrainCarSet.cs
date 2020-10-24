@@ -30,14 +30,5 @@ namespace TrainScriptableObjects
 			trainCars.Remove(trainCar);
 		}
 
-		public void ListTrainCars()
-		{
-			Debug.Log("Listing");
-
-			for (int i = 0; i < trainCars.Count; i++)
-			{
-				Debug.Log("Car ID " + trainCars[i].CarId );
-			}
-		}
 	}
 }
