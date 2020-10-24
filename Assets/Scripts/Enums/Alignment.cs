@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Alignment
+namespace TrainBattle
 {
-     Hero,
-	 Enemy
+	public enum Alignment
+	{
+		Hero,
+		Enemy
+	}
 }

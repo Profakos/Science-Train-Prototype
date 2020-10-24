@@ -2,22 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TrainCar : MonoBehaviour
+namespace TrainBattle
 {
-	[SerializeField]
-	private int carId;
+	public class TrainCar : MonoBehaviour
+	{
+		[SerializeField]
+		private int carId;
 
-	public int CarId { get => carId; set => carId = value; }
+		public int CarId { get => carId; set => carId = value; }
 
-	// Start is called before the first frame update
-	void Start()
-    {
+		// Start is called before the first frame update
+		void Start()
+		{
         
-    }
+		}
 
-    // Update is called once per frame
-    void Update()
-    {
+		// Update is called once per frame
+		void Update()
+		{
         
-    }
+		}
+	}
 }
+

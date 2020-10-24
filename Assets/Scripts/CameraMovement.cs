@@ -2,32 +2,36 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraMovement : MonoBehaviour
+namespace TrainView
 {
-	
-	private readonly float speed = 20;
-	
-	// Use this for initialization
-	void Start()
+
+	public class CameraMovement : MonoBehaviour
 	{
 
-	}
+		private readonly float speed = 20;
 
-	// Update is called once per frame
-	void Update()
-	{
+		// Use this for initialization
+		void Start()
+		{
 
-		if (Camera.current == null)
-			return;
+		}
 
-		float xAxisValue = Input.GetAxis("Horizontal");
-		float yAxisValue = Input.GetAxis("Vertical");
+		// Update is called once per frame
+		void Update()
+		{
 
-		Vector2 cameraPosition = Camera.current.transform.position;
-		
-		var translation = speed * Time.deltaTime;
+			if (Camera.current == null)
+				return;
 
-		Camera.current.transform.Translate(new Vector2(xAxisValue * translation, yAxisValue * translation));
+			float xAxisValue = Input.GetAxis("Horizontal");
+			float yAxisValue = Input.GetAxis("Vertical");
 
+			Vector2 cameraPosition = Camera.current.transform.position;
+
+			var translation = speed * Time.deltaTime;
+
+			Camera.current.transform.Translate(new Vector2(xAxisValue * translation, yAxisValue * translation));
+
+		}
 	}
 }

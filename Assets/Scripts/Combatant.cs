@@ -2,21 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Combatant : MonoBehaviour
+namespace TrainBattle
 {
-	public Alignment alignment;
-	public int trainCarId;
-	public int insideCarIndex;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	public class Combatant : MonoBehaviour
+	{
+		public Alignment alignment;
+		public int trainCarId;
+		public int insideCarIndex;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+		// Start is called before the first frame update
+		void Start()
+		{
+
+		}
+
+		// Update is called once per frame
+		void Update()
+		{
+
+		}
+	}
 }
