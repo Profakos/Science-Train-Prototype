@@ -6,26 +6,9 @@ using UnityEngine;
 namespace TrainScriptableObjects.ScriptableSets
 {
 	[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/ScriptableSets/CombatantSet", order = 1)]
-	public class CombatantSet : ScriptableObject
+	public class CombatantSet : GenericSet<Combatant>
 	{
-		public string objectName = "New combatant set";
-		private List<Combatant> combatants;
+		public CombatantSet(){ objectName = "New combatant set";}
 
-		public CombatantSet()
-		{
-			combatants = new List<Combatant>();
-		}
-
-		public void AddCombatant(Combatant combatant)
-		{
-			if (combatants.Contains(combatant)) return;
-
-			combatants.Add(combatant);
-		}
-
-		public void RemoveCombatant(Combatant combatant)
-		{
-			combatants.Remove(combatant);
-		}
 	}
 }

@@ -41,14 +41,14 @@ namespace TrainBattle
 		{
 			if (trainCars == null) return;
 
-			trainCars.AddTrainCar(this);
+			trainCars.AddItem(this);
 		}
 
 		private void UnregisterTrainCar()
 		{
 			if (trainCars == null) return;
 
-			trainCars.RemoveTrainCar(this);
+			trainCars.RemoveItem(this);
 		}
 	}
 }

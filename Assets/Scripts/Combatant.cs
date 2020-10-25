@@ -33,16 +33,16 @@ namespace TrainBattle
 		{
 			if (teamMembers == null) return;
 
-			allCombatants.AddCombatant(this);
-			teamMembers.AddCombatant(this);
+			allCombatants.AddItem(this);
+			teamMembers.AddItem(this);
 		}
 
 		private void UnregisterCombatant()
 		{
 			if (teamMembers == null) return;
 
-			allCombatants.RemoveCombatant(this);
-			teamMembers.RemoveCombatant(this);
+			allCombatants.RemoveItem(this);
+			teamMembers.RemoveItem(this);
 		}
 	}
 }
